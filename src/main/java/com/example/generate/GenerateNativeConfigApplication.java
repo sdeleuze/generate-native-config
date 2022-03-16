@@ -1,14 +1,13 @@
 package com.example.generate;
 
-
 import java.io.InputStream;
 import java.nio.file.Path;
 import java.util.Map;
 
 import org.springframework.aot.hint.MemberCategory;
 import org.springframework.aot.hint.RuntimeHints;
-import org.springframework.context.nativex.FileNativeConfigurationGenerator;
-import org.springframework.context.nativex.NativeConfigurationGenerator;
+import org.springframework.aot.nativex.FileNativeConfigurationGenerator;
+import org.springframework.aot.nativex.NativeConfigurationGenerator;
 
 public class GenerateNativeConfigApplication {
 
